@@ -13,11 +13,14 @@ const cats = [
 ];
 
 // Oppgave 1
-const cat = [
-    {
-        complain: console.log("Meow!")
-    }
-];
+const cat = {
+        complain: function() {
+            return "Meow!";
+        }
+    };
+    console.log(cat.complain());
+
+    
 
 // Oppgave 2
 const heading = document.querySelector("h3");
