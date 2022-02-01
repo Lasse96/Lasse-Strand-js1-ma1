@@ -30,12 +30,12 @@ heading.innerHTML = "Updated heading";
 heading.style.fontSize = "2em";
 
 // Oppgave 4
-heading.classList = "subheading";
+heading.classList.add = "subheading";
 
 // Oppgave 5
 const paragraphs = document.querySelectorAll("p");
 for (let i = 0; i < paragraphs.length; i++) {
-    paragraphs[i].style.color = "blue";
+    paragraphs[i].style.color = "red";
 };
 
 // Oppgave 6
